@@ -1,0 +1,75 @@
+/* ==== Fonts & HTML-Color ==== */
+* {
+    font-family: 'Pokemon Pixel Font', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    src: url('Pokemon-Pixel-Font.woff2') format('woff2'),
+        url('Pokemon-Pixel-Font.woff') format('woff');
+    font-size: large;
+}
+
+html {
+    background-color: #001220 !important;
+}
+
+.navbar {
+    box-shadow: 0px 2px 10px rgb(0, 0, 0);
+}
+
+.bg-wavy {
+    background-image: url('../img/svg/background_wavy.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 25em;
+}
+
+/* ==== Border Debug ==== */
+* {
+    border: solid rgba(255, 242, 0, 0.15) 0px;
+}
+
+/* ==== Navbar ==== */
+.nav-img {
+    width: 2.5em;
+    height: 2.5em;
+    transition: 0.1s;
+    transform: scale(.8);
+}
+
+/* Hovering */
+.nav-a-sm {
+    transform: scale(1);
+    transition: .1s ease-out;
+    ;
+}
+
+.nav-a-sm:hover {
+    transform: scale(1.05);
+}
+
+.nav-a-lg {
+    transform: scale(1);
+    transition: .1s ease-out;
+    ;
+}
+
+.nav-a-lg:hover {
+    transform: scale(1.15);
+
+}
+
+.nav-item:hover {
+    /* background: rgb(80, 80, 80) !important; */
+}
+
+
+/* NavBar Active*/
+.active {
+    /*     background: rgb(34, 34, 34); */
+    /*     filter: saturate(.7); */
+}
+
+/* ==== Container ==== */
+.div-blur {
+    backdrop-filter: blur(5px);
+    background-color: #00060b4b;
+    border-radius: 0em 0em 2em 2em;
+}
